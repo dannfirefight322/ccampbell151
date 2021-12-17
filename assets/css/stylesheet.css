@@ -44,4 +44,13 @@ button{
     border-radius: 8px;
     opacity: .5;
     background-color: var(--orange);
+    text-decoration: none;
+}
+.btnlink{
+    text-decoration: none;
+    color: var(--orange);
+
+}
+.btnlink:hover{
+    text-decoration: none;
 }
