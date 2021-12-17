@@ -54,3 +54,9 @@ button{
 .btnlink:hover{
     text-decoration: none;
 }
+.navbar-toggler-icon{
+    color: var(--main-color);
+    transform: rotate(90deg);
+    font-weight: bolder;
+    
+}
