@@ -1,7 +1,18 @@
-footer{
-    position: fixed;
-    bottom: 0;
-    text-align: center;
+:root {
+  --main-color: #082032;
+  --second-color: #2C394B;
+  --light-blue: #334756;
+  --orange: #FF4C29;
+}
+body{
+    background-color: var(--main-color);
+}
+.navbar{
+    background-color: var(--orange);
+    color: var(--main-color);
+}
+.chris{
+    font-weight: bolder;
 }
 footer{
     position: fixed;
@@ -9,4 +20,28 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
+    background-color: black;
+    color: var(--orange);
+    height: 30px;
+}
+.footlink{
+    color: var(--orange);
+}
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    border-radius: 8px;
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: var(--orange);
+    font-weight: bolder;
+}
+.btn:hover{
+    border-radius: 8px;
+    opacity: .5;
+    background-color: var(--orange);
 }
