@@ -90,3 +90,6 @@ button{
     color: var(--orange);
     border-radius: 10px;
 }
+.icon{
+    height:20px;
+}
