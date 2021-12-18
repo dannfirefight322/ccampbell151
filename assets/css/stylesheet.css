@@ -58,6 +58,7 @@ button{
     color: var(--main-color);
     transform: rotate(90deg);
     font-weight: bolder;
+    font-size: 25px;
 }
 .jumbotron-fluid{
     display: flex;background-color: var(--main-color);
@@ -92,4 +93,40 @@ button{
 }
 .icon{
     height:20px;
+}
+.modal-header{
+    background-color: var(--orange);
+    color:var(--main-color);
+}
+.modal-body{
+    background-color: var(--main-color);
+}
+.modal-footer{
+    background-color: var(--orange);
+}
+.dropdown-item, .dropdown-item-static{
+    color: var(--orange);
+}
+.dropdown-item-static{
+    margin-left: 48px;
+    margin-top: 15px ;
+    margin-bottom: 15px;
+}
+.form{
+    color: var(--orange);
+    width: 100%;
+    text-align: center;
+}
+.btnsub{
+    border-radius: 8px;
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: var(--orange);
+    font-weight: bolder;
+}
+.btnsub:hover{
+    border-radius: 8px;
+    opacity: .5;
+    background-color: var(--orange);
+    text-decoration: none;
 }
