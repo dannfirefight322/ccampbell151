@@ -3,6 +3,7 @@
   --second-color: #2C394B;
   --light-blue: #334756;
   --orange: #FF4C29;
+  --font: akira_expandedsuper_bold;
 }
 body{
     background-color: var(--main-color);
@@ -12,8 +13,8 @@ body{
     color: var(--main-color);
 }
 .chris{
-    font-weight: bolder;
-    font-family: akira_expandedsuper_bold;
+    font-family: var(--font);
+    font-size: 18px;
 }
 footer{
     position: fixed;
@@ -24,6 +25,8 @@ footer{
     background-color: black;
     color: var(--orange);
     height: 30px;
+    font-family: var(--font);
+    font-size: 16px;
 }
 .footlink{
     color: var(--orange);
@@ -33,6 +36,7 @@ button{
     margin-right: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: var(--font);
 }
 .btn{
     border-radius: 8px;
@@ -60,6 +64,7 @@ button{
     transform: rotate(90deg);
     font-weight: bolder;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .jumbotron-fluid{
     display: flex;background-color: var(--main-color);
@@ -68,18 +73,19 @@ button{
 .aboutMe{
     background-color: var(--second-color);
     color: var(--orange);
-    line-height: 1.5;
+    font-size: 16px;
     border-radius: 10px;
     padding: 20px;
+    font-family: var(--font);
 }
 .placeholderbox{
     display: flex;
     flex-direction: row;
-    height: 445px;
+    height: 500px;
     width: 300px;
     background-color: green;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
 }
 .lead{
     display: flex;
@@ -91,6 +97,7 @@ button{
     background-color: var(--second-color);
     color: var(--orange);
     border-radius: 10px;
+    font-family: var(--font);
 }
 .icon{
     height:20px;
@@ -98,21 +105,21 @@ button{
 .modal-header{
     background-color: var(--orange);
     color:var(--main-color);
+    font-family: var(--font);
 }
 .modal-body{
     background-color: var(--main-color);
+    font-family: var(--font);
 }
 .modal-footer{
     background-color: var(--orange);
+    font-family: var(--font);
 }
 .dropdown-item, .dropdown-item-static{
     color: var(--orange);
+    text-align: center;
 }
-.dropdown-item-static{
-    margin-left: 48px;
-    margin-top: 15px ;
-    margin-bottom: 15px;
-}
+
 .form{
     color: var(--orange);
     width: 100%;
@@ -120,9 +127,9 @@ button{
 }
 .btnsub{
     border-radius: 8px;
-    background-color: var(--second-color);
-    border-color: var(--second-color);
-    color: var(--orange);
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: var(--main-color);
     font-weight: bolder;
 }
 .btnsub:hover{
@@ -130,9 +137,6 @@ button{
     opacity: .5;
     background-color: var(--orange);
     text-decoration: none;
-}
-.banner{
-    width: 100%;
 }
 @font-face{ 
 	font-family: 'akira_expandedsuper_bold';
