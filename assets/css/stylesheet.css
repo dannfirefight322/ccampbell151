@@ -135,7 +135,7 @@ button{
 }
 @font-face {
     font-family:akira_expandedsuper_bold ;
-    src: url(https://dannfirefight322.github.io/ccampbell151/assets/fonts/akira_expanded_demo-webfont.woff);
+    src: url(./assets/fonts/akira_expanded_demo-webfont.woff2);
 }
 .test{
     font-family: akira_expandedsuper_bold;
