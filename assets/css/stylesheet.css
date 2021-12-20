@@ -13,6 +13,7 @@ body{
 }
 .chris{
     font-weight: bolder;
+    font-family: akira_expandedsuper_bold;
 }
 footer{
     position: fixed;
@@ -133,10 +134,11 @@ button{
 .banner{
     width: 100%;
 }
-@font-face {
-    font-family:akira_expandedsuper_bold ;
-    src: url(./assets/fonts/akira_expanded_demo-webfont.woff2);
-}
-.test{
-    font-family: akira_expandedsuper_bold;
+@font-face{ 
+	font-family: 'akira_expandedsuper_bold';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
 }
