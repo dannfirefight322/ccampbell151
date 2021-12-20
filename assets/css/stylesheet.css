@@ -130,3 +130,6 @@ button{
     background-color: var(--orange);
     text-decoration: none;
 }
+.banner{
+    width: 100%;
+}
