@@ -137,6 +137,12 @@ button{
     background-color: var(--orange);
     text-decoration: none;
 }
+.card{
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    color: var(--orange);
+    font-family: var(--font);
+}
 @font-face{ 
 	font-family: 'akira_expandedsuper_bold';
 	src: url('WebFont.eot');
