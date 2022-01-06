@@ -78,8 +78,9 @@ button{
     font-family: var(--font);
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 70%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .aboutMe{
     text-align: center;
