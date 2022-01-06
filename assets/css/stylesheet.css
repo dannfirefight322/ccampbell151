@@ -66,7 +66,7 @@ button{
     font-family: 'Times New Roman', Times, serif;
 }
 .jumbotron-fluid{
-    display: flex;background-color: var(--main-color);
+    background-color: var(--main-color);
 
 }
 .aboutMe{
@@ -76,15 +76,13 @@ button{
     border-radius: 10px;
     padding: 20px;
     font-family: var(--font);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 50px;
 }
-.placeholderbox{
-    display: flex;
-    flex-direction: row;
-    height: 500px;
-    width: 300px;
-    background-color: green;
-    border-radius: 10px;
-    margin-bottom: 120px;
+.aboutMe{
+    text-align: center;
 }
 .lead{
     display: flex;
