@@ -6,7 +6,7 @@
   --font: akira_expandedsuper_bold;
 }
 body{
-    background-color: var(--main-color);
+        background-image: linear-gradient(to bottom right, var(--main-color), var(--orange));
 }
 .navbar{
     background-color: var(--orange);
