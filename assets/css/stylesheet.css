@@ -67,7 +67,14 @@ button{
 }
 .jumbotron-fluid{
     background-color: var(--main-color);
-
+}
+.try{
+    padding-left: 110px;
+}
+.csimage{
+    width: 75%;
+    padding-left: 450px;
+    border-radius: 10px;
 }
 .aboutMe{
     background-color: var(--second-color);
@@ -80,7 +87,7 @@ button{
     margin-right: auto;
     width: 70%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .aboutMe{
     text-align: center;
